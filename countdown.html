@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript Countdown</title>
+	</head>
+	<body>
+		<span id="days"></span>
+		<span id="hours"></span>
+		<span id="minutes"></span>
+		<span id="seconds"></span>
+	
+		<script src="countdown.js"></script>
+		<script>
+			countdown('01/11/2014 06:30:00 PM', ['days', 'hours', 'minutes', 'seconds'], function() {
+				console.log('Finished!');
+			});
+		</script>
+	</body>
+</html>
