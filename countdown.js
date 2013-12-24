@@ -40,7 +40,7 @@ var countdown = function(end, elements, callback) {
 					for(x in elements) {
 						var x = elements[x];
 						data[x] = ('00' + data[x]).slice(-2);
-						document.getElementById(x).innerHTML = data[x];
+						document.getElementById(x).innerHTML = data[x] + " " + x;
 					}
 				}
 			}
